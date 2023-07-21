@@ -1,0 +1,55 @@
+
+body {
+  background-color: #c9cbff;
+}
+hr {
+border-style: dotted none none;
+width: 5%;
+border-color: grey;
+border-width: 4.5px;
+}
+h1 {
+color: #a685e2;
+text-shadow: 1px 1px 2px black;
+letter-spacing: 1.9px;
+}
+h3 {
+  color: #a685e2;
+  text-shadow: 1px 1px .5px #393e46;
+  letter-spacing: 1px;
+}
+
+img {
+  border-style: solid;
+  border-radius: 100px;
+  border-color: black;
+  border-width: medium;
+}
+
+/***** LINK SELECTORS *****/
+
+/*unvisited link*/
+a:link {
+  color: #e05297;
+}
+
+/*visited link*/
+a:visited {
+  color: #cc00cc;
+}
+/*mouse over link*/
+a:hover {
+  color: #ec93be;
+}
+
+/*selected link*/
+
+a:active {
+  color: #db70b8;
+}
+
+/**** ID SELECTORS ****/
+
+#submit:hover {
+  color: #ec93be;
+}
